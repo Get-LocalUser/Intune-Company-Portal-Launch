@@ -1,7 +1,7 @@
 # Launch Company Portal on First Login with Autopilot
 
 ### Premise
-This ensures that the Company Portal automatically launches for the first user who logs into a device so the device category can be set and it syncs with Intune. It is designed to run during the initial login and is intended for use with Autopilot deployments. 
+This ensures that the Company Portal automatically launches for the first user who logs into a device after Autopilot enrollment so the device category can be set and it syncs with Intune. 
 The marker files and Detection scripts prevent it from running again or for other users after it has been deployed. 
 
 ### Considerations
