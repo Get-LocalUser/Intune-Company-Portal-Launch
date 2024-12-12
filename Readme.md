@@ -4,8 +4,8 @@
 This ensures that the Company Portal automatically launches for the first user who logs into a device so the device category can be set and it syncs with Intune. It is designed to run during the initial login and is intended for use with Autopilot deployments. 
 The marker files and Detection scripts prevent it from running again or for other users after it has been deployed. 
 
-### Considerations
-- Works with the User ESP disabled. Have not yet tested with it enabled.
+### Considerations/other
+- This works with the User ESP enabled or disabled.
 - This could break if/when the Company portal version number changes but I believe the way MS has it structured and the logic in the ps script it will continue to work but this will be tested when a new version comes out.
 
 ---
