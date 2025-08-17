@@ -12,5 +12,5 @@ if (Test-Path -Path $markerFilePath) {
 
 if (-not(Test-Path -Path $markerFilePath)) {
     Write-Output "Marker file not detected at $markerFilePath"
-    exit 1  # Detection failed
+    exit 1
 }
